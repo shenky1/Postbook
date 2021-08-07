@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { HttpService } from './services/http.service';
 import { DataService } from './services/data.service';
 import { CommentComponent } from './components/comment/comment.component';
+import { AppBarComponent } from './components/app-bar/app-bar.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { CommentComponent } from './components/comment/comment.component';
     PostListComponent,
     PageNotFoundComponent,
     CommentComponent,
+    AppBarComponent,
   ],
   imports: [BrowserModule, HttpClientModule, AppRoutingModule],
   providers: [HttpService, DataService],

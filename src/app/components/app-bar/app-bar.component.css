@@ -1,0 +1,40 @@
+.bar {
+  height: 60px;
+  width: 100%;
+  background-color: #424651;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app {
+  display: flex;
+  align-items: flex-end;  
+}
+
+.title {
+  color: #ffd700;
+  font-family: 'Satisfy', cursive;
+  font-size: 35px;
+  margin-left: -10px;
+  margin-bottom: -5px;
+}
+
+
+img {
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+}
+
+.author {
+  margin-right: 15px;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+}
+a {
+  margin: 5px;
+}
