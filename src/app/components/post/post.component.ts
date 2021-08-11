@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Comment, Post, User } from 'src/app/models/response.model';
-import { DataService } from 'src/app/services/data.service';
+import { DataService } from 'src/app/core/services/data.service';
 
 @Component({
   selector: 'app-post',
@@ -8,7 +8,7 @@ import { DataService } from 'src/app/services/data.service';
   styleUrls: ['./post.component.css'],
 })
 export class PostComponent implements OnInit {
-  @Input() post!: Post;
+  @Input() post: Post | undefined;
 
   public user: User | undefined;
   public comments: Comment[] = [];

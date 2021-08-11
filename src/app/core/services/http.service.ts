@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
-import { User, Post, Comment } from '../models/response.model';
+import { User, Post, Comment } from '../../models/response.model';
 
 const USERS_URL = 'https://jsonplaceholder.typicode.com/users';
 const POSTS_URL = 'https://jsonplaceholder.typicode.com/posts';

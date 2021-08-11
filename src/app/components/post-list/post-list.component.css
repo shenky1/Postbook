@@ -1,0 +1,8 @@
+.app-post {
+  transition: all .2s ease-in-out;
+}
+
+.app-post:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}

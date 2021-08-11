@@ -1,1 +1,10 @@
-<app-post *ngFor="let post of dataService.posts" [post]="post"></app-post>
+<div class="container">
+  <div class="row row-cols-1">
+    <app-post
+      [routerLink]="['../post', post.id]"
+      *ngFor="let post of dataService.displayedPosts"
+      [post]="post"
+      class="col mt-3 app-post"
+    ></app-post>
+  </div>
+</div>

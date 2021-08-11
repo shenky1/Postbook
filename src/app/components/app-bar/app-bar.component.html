@@ -3,7 +3,11 @@
     <img src="../../../assets/logo.png" alt="Logo" />
     <span class="title">ostbook</span>
   </div>
-  <div class="author">
+  <div class="right-side">
+    <div class="search">
+      <img class="mx-1" src="../../../assets/search-icon.png" alt="Search icon">
+      <input type="text" placeholder="Search user" [formControl]="searchValue"/>
+    </div>
     <a href="https://github.com/shenky1">
       <img
         src="../../../assets/github-logo.png"

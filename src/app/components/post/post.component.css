@@ -1,0 +1,37 @@
+.post-container {
+  border: 1px black solid;
+  border-radius: 6px;
+  background-color: #fff;
+}
+
+.post {
+  padding: 10px;
+  border-bottom: 1px black solid;
+  background: linear-gradient(90deg, #dbdbdb 0%, #8acfde 50%, #5ce4ff 100%);
+}
+
+.post-title {
+  display: -webkit-box;
+  font-family: Verdana, sans-serif;
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  text-decoration: underline;
+}
+
+.post-creator {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 12px;
+  font-style: italic;
+  padding-right: 10px;
+}
+
+.post-body {
+  text-align: center;
+  padding: 5px;
+}
+

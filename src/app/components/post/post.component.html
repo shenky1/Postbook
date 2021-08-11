@@ -1,13 +1,13 @@
 <div class="post-container">
   <div class="post">
-    <div class="post-creator">
-      {{ user?.name }}
-    </div>
     <div class="post-title">
-      {{ post.title }}
+      {{ post?.title | titlecase }}
+    </div>
+    <div class="post-creator">
+      by: {{ user?.name }}
     </div>
     <div class="post-body">
-      {{ post.body }}
+      {{ post?.body | capitalize }}
     </div>
   </div>
   <div class="post-comments">
