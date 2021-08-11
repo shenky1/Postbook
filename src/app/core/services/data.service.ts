@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { forkJoin } from 'rxjs';
-import { PostListComponent } from '../../components/post-list/post-list.component';
 import { Comment, Post, User } from '../../models/response.model';
 import { HttpService } from './http.service';
 

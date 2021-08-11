@@ -1,4 +1,3 @@
-import { ComponentFactory } from "@angular/core";
 
 export interface User {
   id: number;
