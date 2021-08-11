@@ -6,10 +6,8 @@ import { DataService } from 'src/app/core/services/data.service';
   templateUrl: './post-list.component.html',
   styleUrls: ['./post-list.component.css']
 })
-export class PostListComponent implements OnInit {
+export class PostListComponent {
 
   constructor(public dataService: DataService) { }
-
-  ngOnInit(): void {}
 
 }

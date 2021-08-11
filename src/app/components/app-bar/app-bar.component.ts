@@ -7,7 +7,7 @@ import { DataService } from 'src/app/core/services/data.service';
   templateUrl: './app-bar.component.html',
   styleUrls: ['./app-bar.component.css']
 })
-export class AppBarComponent implements OnInit {
+export class AppBarComponent {
 
   public searchValue = new FormControl('');
 
@@ -15,9 +15,6 @@ export class AppBarComponent implements OnInit {
     this.searchValue.valueChanges.pipe(debounceTime(300)).subscribe(value => {
       this.dataService.searchAndUpdatePosts(value);
     })
-  }
-
-  ngOnInit(): void {
   }
 
 }
